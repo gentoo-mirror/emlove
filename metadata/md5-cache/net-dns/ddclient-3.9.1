@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare
+DESCRIPTION=Perl client used to update dynamic DNS entries
+EAPI=7
+HOMEPAGE=https://ddclient.net/
+INHERIT=systemd tmpfiles
+IUSE=examples iproute2
+KEYWORDS=~alpha amd64 arm ~hppa ~ia64 ~mips ppc ppc64 ~sparc x86
+LICENSE=GPL-2+
+RDEPEND=acct-group/ddclient acct-user/ddclient dev-lang/perl dev-perl/Data-Validate-IP dev-perl/Digest-SHA1 dev-perl/IO-Socket-INET6 dev-perl/IO-Socket-SSL virtual/perl-Digest-SHA virtual/perl-JSON-PP iproute2? ( sys-apps/iproute2 ) virtual/tmpfiles
+SLOT=0
+SRC_URI=https://github.com/ddclient/ddclient/archive/v3.9.1.tar.gz -> ddclient-3.9.1.tar.gz
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_md5_=b5a80a174b3765123790830649b9a673
