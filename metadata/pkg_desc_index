@@ -1,5 +1,3 @@
 dev-php/pecl-ast 1.0.5: Extension exposing PHP 7 abstract syntax tree
-dev-python/python-telegram-bot 20.6-r1: Python wrapper of telegram bots API
 gui-apps/swappy 1.2.1 9999: A Wayland native snapshot and editor tool, inspired by Snappy on macOS
 net-dns/ddclient 3.9.1: Perl client used to update dynamic DNS entries
-net-im/telegram-send 0.37: Telegram-send is a command-line tool to send messages and files over Telegram to your account, to a group or to a channel. It provides a simple interface that can be easily called from other programs.
