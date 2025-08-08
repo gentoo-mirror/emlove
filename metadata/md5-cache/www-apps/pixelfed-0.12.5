@@ -1,0 +1,17 @@
+BDEPEND=dev-php/composer
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=app-admin/webapp-config
+DESCRIPTION=Photo Sharing. For Everyone.
+EAPI=8
+HOMEPAGE=https://pixelfed.org/
+INHERIT=webapp
+IUSE=mysql postgres vhosts
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/php-8.3[bcmath,ctype,curl,exif,gd,iconv,intl,ssl,tokenizer,xml,zip,pdo,mysql?,postgres?] media-gfx/jpegoptim media-gfx/optipng media-gfx/pngquant media-video/ffmpeg dev-php/pecl-redis virtual/httpd-php app-admin/webapp-config
+REQUIRED_USE=|| ( mysql postgres )
+RESTRICT=network-sandbox
+SLOT=0.12.5
+SRC_URI=https://github.com/pixelfed/pixelfed/archive/refs/tags/v0.12.5.tar.gz
+_eclasses_=webapp	5fa840db95fc7348dfd53b8526ed05f5
+_md5_=6e9c1b03342cc959815de1ef2e09639d

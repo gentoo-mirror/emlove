@@ -2,3 +2,4 @@ dev-db/mongodb 4.4.29: A high-performance, open source, schema-free document-ori
 dev-php/pecl-ast 1.0.5: Extension exposing PHP 7 abstract syntax tree
 gui-apps/swappy 1.2.1 9999: A Wayland native snapshot and editor tool, inspired by Snappy on macOS
 net-dns/ddclient 3.9.1: Perl client used to update dynamic DNS entries
+www-apps/pixelfed 0.12.5: Photo Sharing. For Everyone.
